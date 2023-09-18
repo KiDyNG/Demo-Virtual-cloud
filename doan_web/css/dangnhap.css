@@ -1,0 +1,66 @@
+#wrapper {
+	height: 400px;
+	display: flex;
+	align-items: center;
+    justify-content: center;
+} 
+#form_login {
+	max-width: 500px;
+	background: #fff;
+    flex-grow: 1;
+	padding: 30px 30px 40px; 
+    box-shadow: 0px 0px 10px 10px rgba(43, 128, 221, .3);
+}
+#form_heading {
+	font-size: 35px;
+	color: black;
+	text-align: center;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+	font-family: 'Source Code Pro', monospace;
+}
+#form_group {
+	border-bottom: 2px solid black;
+	margin-top: 20px;
+	margin-bottom: 25px;
+    display: flex;
+}
+#form_group i {
+	color: black;
+	font-size: 17px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 10px;
+}
+.form_input {
+	background: transparent;
+	border: 0px;
+	outline: 0px;
+	font-size: 17px;
+	color: black; 
+    flex-grow: 1;
+}
+.form_input::placeholder {
+    color: black;
+}
+#eye i {
+	padding-right: 0px;
+	cursor: pointer;
+}
+.form_submit {
+	background: transparent;
+	border: 2px solid #000000;
+	color: #000000;
+	width: 100%;
+	text-transform: uppercase;
+	padding: 10px 10px;
+	transition: 0.2s ease-in-out;
+	margin-top: 15px;
+	font-weight: bold;
+}
+.form_submit:hover {
+	border: 2px solid #000000;
+	color: white;
+	background: #070b0f;
+}
+
